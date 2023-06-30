@@ -1,11 +1,14 @@
-p {
-  text-align: end;
+* {
+  font-family: "Times New Roman";
+}
+h1 {
+  text-align: center;
+  text-transform: capitalize;
 }
 
-a {
-  text-decoration: none;
+#outer {
+  font-size: 25px;
 }
-
-#h1 {
-  font-weight: normal;
+#inner {
+  font-size: 10px;
 }
