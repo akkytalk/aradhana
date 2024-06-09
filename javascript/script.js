@@ -1,6 +1,3 @@
-let namasteBtn=document.querySelector('button');
-namasteBtn.addEventListener('click', showMsg)
+let companies = ["bloomberg", "microsoft", "uber", "google", "ibm", "netflix"];
 
-Function Showmsg (){
-    alert("namaste world");
-}
+companies.push("Amazon");
