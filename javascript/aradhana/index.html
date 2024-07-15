@@ -3,12 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>js with apna college</title>
-    <link rel="stylesheet" href="style.css"/>
- 
+    <title>Document</title>
 </head>
 <body>
-<button id="mode">change mode</button>
-    <script src= "javascript.js"></script> 
+   <div> class="container">
+    <h2>Currency converter</h2>
+    <form>
+       <div class="amount">
+        <p>Enter Amount</p>
+        <input value="100" type="text"/>
+       </div>
+       <div class="dropdown">
+        <div class="from"></div> 
+        <div class="to">
+            <p>From</p>
+            <div class="select-container">              
+                <select name="from">
+                    <option value="USD">USD</option>
+                    <option value="INR">INR</option>
+                    <option value="EUR">EUR</option>
+                    <option value="AUD">AUD</option>
+                </select>
+            </div>
+        </div>
+       </div> 
+    </form>
+   </div>
+    <script src="javascript.js"></script>
 </body>
-</html>      
+</html>
